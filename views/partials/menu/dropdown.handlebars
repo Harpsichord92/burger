@@ -1,0 +1,34 @@
+<h5 class="white-text"><strong>Order a Burger</strong></h5>
+  <form action="/create" method="POST" class="button-size">
+    <select class="browser-default" name="burgerInput">
+      <option value="" disabled selected>Choose a burger</option>
+
+      {{#each itm}}
+        {{#if entree}}
+          <option value="{{this.item}}">{{this.item}}</option>
+        {{/if}}
+      {{/each}}
+
+    </select>
+    <br>
+    <button type="submit" class="waves-effect waves-light btn deep-purple lighten-1 z-depth-4">SUBMIT</button>
+  </form>
+
+<h5 class="white-text"><strong>Order a Side</strong></h5>
+  <form action="/create" method="POST" class="button-size">
+    <select class="browser-default" name="burgerInput">
+      <option value="" disabled selected>Choose a side</option>
+
+      {{#each itm}}
+        {{#unless entree}}
+          <option value="{{this.item}}">{{this.item}}</option>
+        {{/unless}}
+      {{/each}}
+
+    </select>
+    <br>
+    <button type="submit" class="waves-effect waves-light btn deep-purple lighten-1 z-depth-4">SUBMIT</button>
+  </form>
+
+
+

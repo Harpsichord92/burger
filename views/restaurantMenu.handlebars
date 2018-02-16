@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col s3"></div>
+  <div class="col s6">
+    <ul class="card center-align light-green">
+      <h5>Burgers</h5>
+        {{#each itm}}
+          {{#if this.entree}}
+              <p>
+                {{this.id}}. {{this.item}}
+              </p>
+          {{/if}}
+        {{/each}}
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s3"></div>
+  <div class="col s6">
+    <ul class="card center-align light-green lighten-2">
+      <h5>Sides</h5>
+        {{#each itm}}
+          {{#unless entree}}
+              <p>
+                {{this.id}}. {{this.item}}
+              </p>
+          {{/unless}}
+        {{/each}}
+    </ul>
+  </div>

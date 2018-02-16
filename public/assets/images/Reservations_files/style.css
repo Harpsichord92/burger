@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(225,225,225);
+  font: Georgia, serif
+}
+
+.imgMain > #banner_backdrop {
+  position: relative;
+  background: url("../img/res10.jpg") repeat-x;
+  width: 3000px;
+  height: 600px;
+  -webkit-animation: aniMain 15s linear infinite;
+  opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
+.mainFooter {
+  position: absolute;
+  background-color: rgb(209,43,82);
+  bottom: 0px;
+  width: 100%;
+  height: 115px;
+}
+
+.socialRef {
+  position: absolute;
+  left: 40%;
+  height: 100px;
+  width: 400px;
+}
+.social-icon {
+  display: center;
+  float: left;
+  right: 40px;
+}
+
+.socialText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 0px;
+    position: absolute;
+    left: 20px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+/*sdfdsf you left of here from the top up makine social icons, u can still pres z to return
+maye change icons, need space between icons, circle icon woul be betteR?*/
+
+
+
+
+.mainHeader{
+  position: absolute;
+  background-color: rgb(209,43,82);
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color:
+}
+
+.managerBtn {
+  position: absolute;
+  top: 250px;
+  right: 32.34px;
+}
+
+.managerBtn > p {
+  position: absolute;
+  top: 50px;
+  left: 19.343px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.imgMain {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 608px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@-webkit-keyframes aniMain {
+  from{ right: 0px;}
+	to { right: 1500px; }
+}
+
+.mainOptionWin {
+   border-radius: 25px;
+   background: rgb(255,255,255);
+   padding: 20px;
+   width: 300px;
+   height: 400px;
+   position: absolute;
+   left: 38%;
+   top: 20%;
+   box-shadow: 10px 10px 5px #888888;
+}
+
+.resBtn {
+  position: absolute;
+  width: 270px;
+  height: 100px;
+  border-bottom: solid black;
+  top: 100px;
+  left: 18.343px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.resBtnHolder {
+  position: absolute;
+  left: 10px;
+}
